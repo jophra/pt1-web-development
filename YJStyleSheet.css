@@ -1,0 +1,179 @@
+﻿body {
+    margin:0px;
+}
+.Table_Main
+{
+    width:100%;
+}
+.top_row
+{
+    background-color:#000000;
+    height:40px;
+}
+.table_top
+{
+    width:1000px;
+    color:#ffffff;
+
+}
+.saree_small{
+    width:230px;
+    color:#808080;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:solid 2px #CAF4F9;
+    margin-top:10px;
+}
+
+    .saree_small:hover {
+        opacity: 0.8;
+        background-color: #9109d0;
+    }
+
+
+.price{
+    color:#00ff21;
+    font-weight:bold;
+}
+.orginal-price {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.bold-price {
+    color: #000000;
+    font-weight: bold;
+    
+}
+.offer_pre {
+    color: #72116e;
+    font-weight: bold;
+   
+}
+.button_col{
+    background-color:#72116e;
+    color:#ffffff;
+}
+.code {
+    color: #ff6a00;
+    font-weight: bold;
+}
+.table_Menu {
+    width: 1000px;
+    color: #ffffff;
+}
+.banner_bg {
+    background-color: #72116e;
+    margin:0px;
+    padding:10px;
+    padding-bottom:0px;
+}
+.footer_b {
+    background-color: #000000;
+    height: 40px;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+}
+.class_h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+.S-details td{
+
+    color:#808080;
+    font-size:14px;
+    padding:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.class_h2 {
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    margin: 0px;
+    padding-left:5px
+}
+ul.animatedunderlinemenu {
+    list-style: none;
+    margin: 20px;
+    margin-bottom: 20px; /* add spacing between UL and rest of content for demo purposes */
+    padding: 0;
+    text-align: center; /* enter "left", "right", or "center" to orient the menu accordingly */
+    font: bold 12px 'Lato', sans-serif; /* use google custom font "Lato" */
+    text-transform: uppercase;
+}
+
+    ul.animatedunderlinemenu li {
+        display: inline;
+        margin-right: 25px; /* spacing between each menu item */
+    }
+
+        ul.animatedunderlinemenu li a {
+            position: relative;
+            display: inline-block;
+            color: black;
+            padding: 2px 3px;
+            padding-bottom: 8px; /*spacing between each menu item and underline beneath it */
+            text-decoration: none;
+            margin-bottom: 20px; /* spacing between A elements, relevant when menu becomes multi-lined */
+            letter-spacing: .1em;
+        }
+
+            ul.animatedunderlinemenu li a:after {
+                position: absolute;
+                display: block;
+                content: '';
+                width: 0;
+                height: 3px;
+                background: #CAF4F9;
+                top: 100%;
+                left: 0;
+                opacity: 0;
+                z-index: -1;
+                -wekkit-transition: all .3s;
+                transition: all .3s;
+            }
+
+            ul.animatedunderlinemenu li a:hover:after {
+                width: 100%; /* increase underline width to 100% */
+                opacity: 1;
+            }
+
+    /* //// Expand underline effect //// */
+
+    ul.animatedunderlinemenu.expand li a:after {
+        background: #CAF4F9;
+        -webkit-transition: width .3s, opacity .3s, height .3s .3s;
+        transition: width .3s, opacity .3s, height .3s .3s;
+    }
+
+    ul.animatedunderlinemenu.expand li a:hover:after {
+        width: 100%; /* increase underline width to 100% */
+        height: 10px; /* increase underline height to 10px */
+        opacity: 1;
+    }
+
+    /* //// Expand underline upwards effect //// */
+
+    ul.animatedunderlinemenu.expandup li a:after {
+        background: #CAF4F9;
+        top: auto;
+        bottom: 0;
+        -webkit-transition: width .3s, opacity .3s, height .3s .3s;
+        transition: width .3s, opacity .3s, height .3s .3s;
+    }
+
+    ul.animatedunderlinemenu.expandup li a:hover:after {
+        width: 100%; /* increase underline width to 100% */
+        height: 100%; /* increase underline height to 100% */
+        opacity: 1;
+    }
